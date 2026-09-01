@@ -1,0 +1,9 @@
+{
+  "name": "@stack-effect-addons/addon-cli",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run test/bootstrap-receipt.test.ts",
+    "type-check": "tsc --noEmit"
+  }
+}
