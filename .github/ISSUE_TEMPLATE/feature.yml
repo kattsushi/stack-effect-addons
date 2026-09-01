@@ -1,0 +1,42 @@
+name: Feature request
+description: Propose a scoped capability for this repository.
+title: "[Feature]: "
+labels: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to share a focused idea. Clear context helps us evaluate it well.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What repository need or limitation would this address?
+      placeholder: Describe the current situation and who it affects.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Proposed outcome
+      description: What useful capability should be available?
+      placeholder: Describe the intended result.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: How will we know this request is complete?
+      placeholder: List clear, testable conditions.
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope confirmation
+      description: Please confirm before submitting.
+      options:
+        - label: I confirm this request is scoped and supported by relevant evidence.
+          required: true
